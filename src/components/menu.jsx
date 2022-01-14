@@ -1,12 +1,13 @@
 import React from "react";
 import MenuElement from "./MenuElement";
+import '../css/menu.css'
 
 
 const Menu = () => {
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 main-menu">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Chris Gadek</a>
+                <a className="navbar-brand">Chris Gadek</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">

@@ -1,0 +1,21 @@
+.main-site-container{
+    height: 100vh;
+}
+
+.bg-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("../../public/code_background.jpg");
+}
+
+.bg-higher{
+    background-color: #555eff;
+    position: relative;
+    top: -100%;
+    z-index: 1;
+    opacity: 0.35;
+    height: 100vh;
+    width: 100vw;
+}
