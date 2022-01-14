@@ -7,13 +7,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    position: relative;
+    z-index: 0;
+    top: -100%;
     background-image: url("../../public/code_background.jpg");
 }
 
 .bg-higher{
     background-color: #555eff;
     position: relative;
-    top: -100%;
+    top: -200%;
     z-index: 1;
     opacity: 0.35;
     height: 100vh;

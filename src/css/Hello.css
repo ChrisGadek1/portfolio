@@ -1,0 +1,115 @@
+.hello-container{
+    z-index: 101;
+    position: relative;
+    top: -12%;
+}
+
+.hello-container > div{
+    width: 100%;
+    position: relative;
+}
+
+@keyframes example {
+    0% {width: 100%}
+    100% {width: 0%; z-index: 0;}
+}
+
+.hello-container > div > div:first-child{
+    position: relative;
+    top: -20px;
+}
+
+.hello-container > div >div:nth-child(2){
+    position: relative;
+    top: calc(5vh - 20px);
+}
+
+.hello-container > div >div:nth-child(3){
+    position: relative;
+    top: calc(10vh - 20px);
+}
+
+.text-curtain{
+    width: 100%;
+    height: 100%;
+    background-color: #ded596;
+    border-radius: 5px;
+    position: relative;
+    top: 100%;
+    z-index: 1000;
+    animation: example 1s forwards ease-in-out;
+}
+
+.text-curtain-cv{
+    width: 100%;
+    height: 100%;
+    background-color: #ded596;
+    border-radius: 5px;
+    position: relative;
+    top: 100%;
+    z-index: 1000;
+    animation: example 1s forwards ease-in-out;
+    animation-delay: 1s;
+}
+
+.text-curtain-cv:hover{
+
+}
+
+.main-text-cv:hover{
+    opacity: 0.9;
+    background-color: #ffee90;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.main-text-cv{
+    transition: 0.4s;
+}
+
+.main-text{
+    padding: 0.5vw;
+    opacity: 0.8;
+    margin: 0;
+    border-radius: 5px;
+    background-color: #ded596;
+    -webkit-box-shadow: -5px 5px 32px 11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -5px 5px 32px 11px rgba(66, 68, 90, 1);
+    box-shadow: -5px 5px 32px 11px rgba(66, 68, 90, 1);
+}
+
+@media(min-width: 1400px) {
+    .hello-container{
+        font-size: 60px;
+    }
+}
+
+@media(min-width: 1200px) and (max-width: 1399px){
+    .hello-container{
+        font-size: 55px;
+    }
+}
+
+@media(min-width: 1000px) and (max-width: 1199px){
+    .hello-container{
+        font-size: 50px;
+    }
+}
+
+@media(min-width: 800px) and (max-width: 999px){
+    .hello-container{
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 799px) and (min-width: 300px){
+    .hello-container{
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 299px){
+    .hello-container{
+        font-size: 20px;
+    }
+}
