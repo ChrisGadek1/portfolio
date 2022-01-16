@@ -1,0 +1,16 @@
+.education-container{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../public/board.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.education-container-blur{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 136, 196, 0.6);
+}

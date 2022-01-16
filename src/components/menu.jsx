@@ -5,7 +5,7 @@ import '../css/menu.css'
 
 const Menu = () => {
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 main-menu">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 main-menu p-0">
             <div className="container-fluid">
                 <a className="navbar-brand">Chris Gadek</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
