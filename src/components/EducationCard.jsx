@@ -3,7 +3,7 @@ import '../css/EducationCard.css'
 
 const EducationCard = ({title, years, fieldOfStudy, imgUrl, additionalInfo}) => {
     return(
-        <div className="card education-card col-9 col-sm-5 m-auto">
+        <div className="card education-card col-9 col-sm-5">
             <img src={imgUrl} className="d-block w-100 educational-card-img" alt="image failed to download"/>
             <div className="card-body text-start">
                 <h5 className="card-title">{title}</h5>
