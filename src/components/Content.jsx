@@ -3,6 +3,7 @@ import MainSite from "./MainSite";
 import Education from "./Education";
 import '../css/Content.css'
 import Experience from "./Experience";
+import Skills from "./Skills";
 
 const Content = () => {
     return(
@@ -10,6 +11,7 @@ const Content = () => {
             <MainSite/>
             <Education />
             <Experience />
+            <Skills />
         </div>
     )
 }

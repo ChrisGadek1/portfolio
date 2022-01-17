@@ -1,0 +1,18 @@
+.skills-section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../public/skills.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.skills-section-blur{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 136, 196, 0.6);
+}
+
+.skills-section-blur > div {
+    margin-top: 50px;
+}
