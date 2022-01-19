@@ -53,6 +53,10 @@ const Skills = () => {
                 progress: "60"
             },
             {
+                name: "Heroku deployment",
+                progress: "45"
+            },
+            {
                 name: "Linux/Bash",
                 progress: "35"
             },
