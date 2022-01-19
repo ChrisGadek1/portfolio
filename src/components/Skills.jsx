@@ -21,6 +21,9 @@ const Skills = () => {
             {
                 name: "Java Script",
                 progress: "55"
+            },            {
+                name: "Type Script",
+                progress: "50"
             },
             ,
             {

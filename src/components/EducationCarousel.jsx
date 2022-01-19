@@ -5,6 +5,14 @@ const EducationCarousel = () => {
     return(
         <div id="carouselExampleControls" className="carousel slide w-100" data-interval="false">
             <div className="carousel-inner">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            className="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
                 <div className="carousel-item active"  data-interval="false">
                     <EducationCard title="AGH University of Science And Technology"
                                    years="2019-2023"
