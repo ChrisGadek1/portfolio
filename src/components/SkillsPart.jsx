@@ -4,7 +4,7 @@ import SkillsLegend from "./SkillsLegend";
 
 const SkillsPart = ({title, skills, showLegend, legend}) => {
     return(
-        <div className="card col-sm-10 col-md-6 col-lg-4">
+        <div className="card col-sm-10 col-md-6 col-lg-4 col-10">
             <div className="card-body">
                 <h5 className="card-title">{title}</h5>
                 {showLegend ? <div>
