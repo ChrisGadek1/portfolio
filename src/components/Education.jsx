@@ -4,7 +4,7 @@ import EducationCarousel from "./EducationCarousel";
 
 const Education = () => {
     return(
-        <div className="education-container">
+        <div className="education-container" id="education">
             <div className="education-container-blur d-flex align-items-center">
                 <EducationCarousel />
             </div>

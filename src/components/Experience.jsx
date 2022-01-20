@@ -4,7 +4,7 @@ import ExperienceCard from "./ExperienceCard";
 
 const Experience = () => {
     return(
-        <div className="experience-container">
+        <div className="experience-container" id="experience">
             <div className="experience-container-blur d-flex align-items-center justify-content-center">
                 <div className="mb-3 col-10 col-sm-8">
                     <ExperienceCard

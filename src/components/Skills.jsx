@@ -140,7 +140,7 @@ const Skills = () => {
     }
 
     return(
-        <div className="skills-section">
+        <div className="skills-section" id="skills">
             <div className="skills-section-blur d-flex align-items-start justify-content-center flex-wrap gap-5">
                     <SkillsPart
                         title="Programming Skills"

@@ -19,13 +19,6 @@ const Hello = () => {
                     </div>
 
                 </div>
-                <div className="d-flex justify-content-center">
-                    <div>
-                        <div className="text-curtain-cv"></div>
-                        <p className="text-break text-center main-text main-text-cv"><i className="icon-down-big"></i> Download CV</p>
-                    </div>
-
-                </div>
 
             </div>
 
