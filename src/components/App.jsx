@@ -5,7 +5,7 @@ import Content from "./Content";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"  data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="0">
         <Menu />
         <Content/>
     </div>

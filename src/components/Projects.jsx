@@ -4,7 +4,7 @@ import ProjectsMain from "./ProjectsMain";
 
 const Projects = () => {
     return(
-        <div className="projects-section">
+        <div className="projects-section" id="projects">
             <div className="projects-section-blur">
                 <ProjectsMain />
             </div>

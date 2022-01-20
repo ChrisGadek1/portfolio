@@ -5,7 +5,7 @@ import Hello from "./Hello";
 
 const MainSite = () => {
     return(
-        <div className="main-site-container">
+        <div className="main-site-container" id="main-site">
             <Hello/>
             <div className="bg-image"></div>
             <div className="bg-higher"></div>
