@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9a29de57.css",
+    "main.js": "/portfolio/static/js/main.b8ca6c55.js",
+    "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/board.jpg": "/portfolio/static/media/board.76993d15468ac2260a53.jpg",
+    "static/media/work.jpg": "/portfolio/static/media/work.86ef4f726d9948b2ea54.jpg",
+    "static/media/code_background.jpg": "/portfolio/static/media/code_background.2f9f3bfac28d7a4ecd05.jpg",
+    "static/media/projects.jpg": "/portfolio/static/media/projects.e3363cacf85fc3279410.jpg",
+    "static/media/skills.jpg": "/portfolio/static/media/skills.d23bf5f3ff29992f3d74.jpg",
+    "static/media/fontello.eot?35880966": "/portfolio/static/media/fontello.b6a08d0e29a7914f56a7.eot",
+    "static/media/fontello.ttf?35880966": "/portfolio/static/media/fontello.7494a5eb76897be36c49.ttf",
+    "static/media/fontello.woff?35880966": "/portfolio/static/media/fontello.d0e470b8bf7175d001c6.woff",
+    "static/media/fontello.woff2?35880966": "/portfolio/static/media/fontello.79073537a1f1acdfd377.woff2",
+    "static/media/fontello.svg?35880966": "/portfolio/static/media/fontello.0661a2ea347ce40814f5.svg",
+    "index.html": "/portfolio/index.html",
+    "main.9a29de57.css.map": "/portfolio/static/css/main.9a29de57.css.map",
+    "main.b8ca6c55.js.map": "/portfolio/static/js/main.b8ca6c55.js.map",
+    "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a29de57.css",
+    "static/js/main.b8ca6c55.js"
+  ]
+}
